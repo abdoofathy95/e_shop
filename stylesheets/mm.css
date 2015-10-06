@@ -1,0 +1,225 @@
+header {
+  display: block;
+  width:100%;
+  height:auto;
+  position: relative;
+  overflow: hidden; //fix float problem
+}
+
+#loginform {
+  float: right;
+  border: 3px solid rgb(194, 194, 194);
+  margin-bottom: 2%;
+  padding: 0px 13px 12px 17px;
+  border-radius: 50px;
+}
+
+#history {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /*border: 2px solid black;*/
+}
+
+th {
+  font-size: 20px;
+}
+
+#purchase {
+  text-align: center;
+}
+
+#logo {
+  float: left;
+}
+
+#logo-word {
+  float: left;
+}
+#logo-big-word {
+  font-size: 60px;
+  margin-bottom: -15%;
+  font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+#logo-small-word {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*.login-input {
+  margin: 0 0 0 0;
+  padding: 11px 11px 11px 11px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color : #E0E6ED;
+  border: 0px;
+}
+.login-input:focus {
+  border: 0px;
+  background-color : #E0E6ED;
+  outline: 0;
+  box-shadow: 0 0 5px #9BADB8;
+}*/
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #E0E6ED inset;
+  -webkit-text-fill-color: black;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #E0E6ED inset;
+  -webkit-text-fill-color: black;
+}
+#checkbox {
+  color: rgb(160, 151, 151);
+  width: 100px;
+}
+#checkbox:hover {
+  color: rgb(208, 37, 37);
+  cursor: pointer;
+}
+
+.button {
+  border:0px;
+  border-radius:45px;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  padding: 8px 32px 8px 32px;
+  background-color: rgb(211, 72, 67);
+  font-weight: bold;
+  outline: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(244, 159, 156);
+  transition:1s;
+  outline: 0;
+}
+
+#error {
+  color: red;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.product {
+  float: left;
+  width:12%;
+  margin: 2% 0 1.5% 2.5%;
+
+}
+
+footer {
+  clear: both;
+}
+
+.products {
+  margin: 0 -4% 0 4%;
+}
+
+.link {
+  margin: 0 40%;
+  text-decoration: none;
+  cursor: default;
+  color: white;
+  border: 1px transparent;
+  border-radius: 40px;
+  padding: 1% 1% 1% 1%;
+  background-color: rgba(149, 208, 142, 0.71);
+  text-align: center;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: rgba(149, 208, 142, 0.71);
+  transition:1s;
+  background-color: white;
+}
+
+.link:active {
+  text-decoration: none;
+  color: white;
+}
+
+.product-name {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.price {
+  float: right;
+  color: green;
+}
+
+#logged-in {
+  width: 20%;
+  float: right;
+}
+
+#user-img {
+  float: left;
+  margin: 1% 0 0 0;
+}
+
+#welcome {
+  width: 40%;
+  float: left;
+  margin: 7% 3% 0 0;
+}
+
+#username-link {
+  float: left;
+  margin: 8% 0 0 0;
+  font-size: 20px;
+  color:#88887a;
+  text-decoration:none;
+  transition:0.5s ease;
+  clear: both;
+}
+#username-link:hover {
+  color:#F73131;
+  margin-left:5px;
+  transition:0.5s ease;
+}
+
+#history-link {
+  float: left;
+  clear: left;
+  margin: 10% 0 0 0;
+  font-size: 20px;
+  color:#88887a;
+  text-decoration:none;
+  transition:0.5s ease;
+}
+#history-link:hover {
+  color:#F73131;
+  margin-left:5px;
+  transition:0.5s ease;
+}
+
+#logout {
+  float: right;
+  margin: 10% 10% 0 0;
+  border:0px;
+  border-radius:45px;
+  padding: 8px 32px 8px 32px;
+  background-color: rgb(211, 72, 67);
+  font-weight: bold;
+  outline: 0;
+}
+
+#logout:hover {
+  cursor: pointer;
+  background-color: rgb(244, 159, 156);
+  transition:1s;
+  outline: 0;
+}

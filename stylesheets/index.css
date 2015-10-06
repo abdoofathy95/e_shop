@@ -1,0 +1,404 @@
+
+html, body {
+    height: auto;
+}
+
+body {
+  margin-top: 4.5em;
+}
+
+*{margin: 0}
+
+/*Navigation Bar -----------------------------------------------------------*/
+
+.header{
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    top: 0em;
+    background-color: white;
+    border-bottom: 2px solid;
+    border-color: rgba(255, 30, 30, 0.65);
+    z-index: 3;
+}
+
+.crew-logo {
+    width: 90%;
+    text-indent: 5em;
+    font-size: 35px;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-links{
+    list-style-type: none;
+    position: relative;
+    top: 30%;
+    right: 10%;
+    height: 50%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    -webkit-user-select: none;
+}
+
+.navbar-link{
+/*        color: white;*/
+    min-width: 4em;
+    max-width: 14em;
+/*        width: auto;*/
+/*        margin-top: 1em;*/
+    text-align: center;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-link:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.account-menu-div{
+    background-color: white;
+    position: fixed;
+/*    left: 73%;*/
+    top: 2.5em;
+    width: 10%;
+/*    overflow: auto;*/
+    border: 1px solid rgba(208, 208, 208, 0.67);
+}
+
+.account-menu{
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width:100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.account-menu-item{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    cursor: pointer;
+/*    border: 1px solid rgba(208, 208, 208, 0.67);*/
+    width: 100%;
+    text-align: center;
+}
+
+.account-menu-button {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  background-color: rgba(255, 30, 30, 0.81);
+  cursor: pointer;
+  border-collapse: collapse;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+.menu-item-highlighted{
+/*    background-color: rgba(159, 200, 255, 0.71);*/
+    background-color: rgba(255, 52, 52, 0.81);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.slider{
+    width: 30%;
+    height: 5em;
+    background-color: white;
+/*        border: 1px solid;*/
+    margin: -6em 0 0 -15%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+.hovered{
+    border-bottom: 2px solid #ff4f4f;
+}
+
+/*Everything Between the Navigation Bar and the Footer (TBA)*/
+
+.container-body{
+    width: 100%;
+    margin-top: 4em;
+    height: auto;
+}
+
+.container-container{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: 0em auto;
+    background-color: white;
+    z-index: 2;
+}
+
+#cart-h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: rgba(255, 30, 30, 0.81);
+  font-size: 3em;
+}
+
+/*HOME PAGE -----------------------------------------------------------------------*/
+
+.about-p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+/*TEAM PAGE ----------------------------------------------------------------------*/
+
+#container-meet{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.member-photo{
+    float: right;
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-weight: 300;*/
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    /*font-size:20px;*/
+    /*color:#fff;*/
+    /*line-height:120px;*/
+    /*text-align:center;*/
+    background:grey;
+    /*margin-right: 1em;*/
+    overflow: hidden;
+}
+
+.member-profile-photo{
+    /*float: right;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-weight: 300;*/
+    width:120px;
+    height:120px;
+    border-radius:120px;
+    /*font-size:20px;*/
+    /*color:#fff;*/
+    /*line-height:120px;*/
+    /*text-align:center;*/
+    background:grey;
+    /*margin-right: 1em;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#member-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+/*    text-indent: 0.8em;*/
+    font-size: 28px;
+}
+
+#member-about{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+/*    text-indent: 1em;*/
+    font-size: 18px;
+}
+
+/*BLOG PAGE ------------------------------------------------------------------------*/
+
+.list-posts{
+    width: 10%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 30, 30, 0.65);
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+.post-info{
+    float: left;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    margin-left: 1em;
+}
+
+#post-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+/*    color: rgb(255, 30, 30);*/
+    color: rgba(255, 30, 30, 0.65);
+}
+
+#post-date-member{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: rgb(134, 134, 134);
+}
+
+#post-comments{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.36);
+    color: white;
+    border-radius: 3px;
+    width: 50%;
+    margin: 0em auto;
+}
+
+.post-content{
+    float: right;
+    width: 60%;
+    font-size: 16px;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.post-comments{
+    float: right;
+    width: 60%;
+    font-size: 16px;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    border: 1px solid;
+/*    border-color: rgba(255, 30, 30, 0.65);*/
+    border-color: rgba(128, 128, 128, 0.36);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+.post-comment{
+    border-bottom: 1px solid;
+    padding: 5px;
+    border-color: rgba(255, 30, 30, 0.65);
+    margin-top: 2em;
+}
+
+.comment-reply{
+    border-bottom: 1px solid;
+    padding: 5px;
+    border-color: rgba(255, 30, 30, 0.65);
+    width: 90%;
+    float: right;
+    margin-top: 1em;
+}
+
+.reply_input{
+    position: inherit;
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0.8em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: grey;
+    margin-left: 10%;
+}
+
+.comment_input{
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: grey;
+    margin-top: 2em;
+}
+
+/*ACCOUNT MANAGEMENT PAGES ----------------------------------------------------------*/
+
+.login-div{
+    width: 30%;
+/*    border: 1px solid;*/
+    text-align: center;
+
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.login-input{
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: grey;
+}
+
+.login-button{
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 30, 30, 0.65);
+    cursor: pointer;
+    outline: none;
+}
+
+#login-p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.signature-textarea{
+    width: 60%;
+    max-width: 60%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: grey;
+    outline: none;
+}
+
+/*GENERAL AND TEST --------------------------------------------------------------*/
+
+.dimmer{
+    width: 100%;
+    height: 100%;
+/*    min-height: 100% !important;*/
+    background-color: rgba(36, 36, 36, 0.67);
+    position: fixed;
+    margin: 0;
+}
+
+.display-none {
+    display: none;
+}
